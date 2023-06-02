@@ -97,6 +97,7 @@ void loop() {
       int randRhythm = rhythms[randRhythmIndex];
       CircuitPlayground.playTone(midi[abLydian[randPitch][0]], abLydian[randRhythm][1]);
       Serial.println(abLydian[randPitch][0]);
+       Serial.println("meow");
       delay(1);
     }
     buttonFlagR = 0;
